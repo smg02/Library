@@ -1,0 +1,57 @@
+:root{
+    --main-color: #538392;
+    --secondary-color: #6295A2;
+    --third-color: #80B9AD;
+    --fourth-color: rgb(229, 229, 229);
+}
+
+@font-face {
+    font-family: my-font;
+    src: url(font.ttf);
+}   
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: my-font;
+}
+
+body {
+    background-color: var(--main-color);
+}
+
+.header {
+    margin: 25px;
+    font-size: 2.5rem;
+    text-align: center;
+}
+    
+.bold {
+    font-weight: bolder;
+}
+
+.container-box {
+    background-color: var(--fourth-color);
+    margin: 2rem;
+    padding: 2rem;
+    min-height: 90vh;
+    border-radius: 20px;
+    box-shadow: 5px 5px 30px 5px rgb(39, 39, 39);
+}
+
+.text {
+    font-size: 1.6rem;
+}
+
+.cards-container {
+    margin-top: 1rem;
+    display: grid;
+    grid-template: 1fr / repeat(auto-fit, 200px);
+    gap: 2rem;
+}
+
+.card {
+    background-color: var(--secondary-color);
+    height: 10rem;
+    padding: 1rem;
+}
