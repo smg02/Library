@@ -61,7 +61,7 @@ body {
     box-shadow: 1px 1px 5px;
 }
 
-.big {
+.book-name {
     grid-column: 1 / 3;
     font-size: 2vw;
     justify-self: center;
