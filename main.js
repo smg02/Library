@@ -66,7 +66,7 @@ const displayBooks = () => {
         bookName.textContent = `${element.title}`;
 
         const bookAuthor = document.createElement("span");
-        bookName.setAttribute("class", "book-author");
+        bookAuthor.setAttribute("class", "book-author");
         bookAuthor.textContent = `${element.author}`;
 
         const bookPages = document.createElement("span");
